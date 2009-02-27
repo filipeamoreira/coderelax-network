@@ -65,7 +65,7 @@ h2{
 }
 /* Header */
 #header{
-	height:130px;
+	height:87px;
 }
 #header h1{
 	float:left;
@@ -92,9 +92,7 @@ ul#main-menu li a:hover{
 ul#main-menu li a.current{
 }
 #sub-header{
-	background:#EFECCA;
 	border-bottom:none;
-	height:180px;
 	overflow:hidden;
 }
 #sub-header h2{
@@ -107,14 +105,8 @@ ul#main-menu li a.current{
 }
 #services ul li, #news ul li{
 	width:30%;	
-	background:#FFFFFF;
-/*	margin:5px 5px 5px 7px; */
 	float:left;
 	display:inline;
-/*	-moz-border-radius: 10px;
-	-webkit-border-radius: 10px;
-	border: 1px solid #A7A37E;
-	*/
 	padding:8px;
 }
 #content .last{
@@ -133,11 +125,29 @@ ul#main-menu li a.current{
 #content ul li a:hover, #news ul li a:hover{
 	text-decoration:underline;
 }
-#content ul li p, #news ul li p{
+#news ul li p{
 	text-align:left;
 	font-size:1.6em;
 	margin-top:1em;
 }
+a.button{
+	width: 15em;
+	padding: .25em;
+	color: #ffffff;
+	text-shadow: 1px 1px 1px #000;
+	border: solid 1px #9CAF41;
+	-webkit-border-radius: .7em;
+	-moz-border-radius: .7em;
+	border-radius: .7em;
+	-webkit-box-shadow: 2px 2px 3px #999;
+	box-shadow: 2px 2px 2px #bbb;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#e9ede8), to(#ce401c),color-stop(0.4, #8c1b0b));
+	text-decoration:none;
+}
+a.button:hover{
+	text-decoration:none;
+}
+
 /* Social media and contact */
 #social{
 	padding:2em;

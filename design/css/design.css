@@ -179,12 +179,27 @@ ul#main-menu li a.first{
 	border:4px solid #EBF2EE;
 	background:#FFFFFF;
 }
-#services h1.pitch a{
+a.button{
+	width: 15em;
+	padding: .25em;
+	color: #ffffff;
+	text-shadow: 1px 1px 1px #000;
+	border: solid 1px #9CAF41;
+	-webkit-border-radius: .7em;
+	-moz-border-radius: .7em;
+	border-radius: .7em;
+	-webkit-box-shadow: 2px 2px 3px #999;
+	box-shadow: 2px 2px 2px #bbb;
+	background-color: #ce401c;
+	background-color:#F13C26;
+	color:#000000;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#e9ede8), to(#ce401c),color-stop(0.4, #8c1b0b));
 	text-decoration:none;
 }
-#services h1.pitch a:hover{
-	text-decoration:underline;
+a.button:hover{
+	text-decoration:none;
 }
+
 #services{
 	padding:0.5em;
 	overflow:hidden;
