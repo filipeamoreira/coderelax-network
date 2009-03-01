@@ -86,9 +86,9 @@
 					<p>Subscribe to our newsletter and we'll keep you posted on special deals, new projects and tips about online marketing.</p>
 					<p>We respect your privacy and will never sell or share your email.</p>
 					<form method="post" action="">
-						<input id="name" name="name" type="text" class="text" onblur="if (this.value == '') {this.value = 'Enter your name';}" onfocus="if (this.value == 'Enter your name') {this.value = '';}" value="Enter your name"/>
-						<input id="email" name="email" type="text" class="text" onblur="if (this.value == '') {this.value = 'Enter your email';}" onfocus="if (this.value == 'Enter your email') {this.value = '';}" value="Enter your email"/><br />
-						<input id="savebtn" class="btn" type="submit" value="Go" />
+						<input id="name" name="name" type="text" class="text" onblur="if (this.value == '') {this.value = 'Your name';}" onfocus="if (this.value == 'Your name') {this.value = '';}" value="Your name"/>
+						<input id="email" name="email" type="text" class="text" onblur="if (this.value == '') {this.value = 'Your email';}" onfocus="if (this.value == 'Your email') {this.value = '';}" value="Your email"/><br />
+						<input id="savebtn" class="btn" type="submit" value="Go" onclick="this.disabled=true" />
 					</form>
 				</div>
 			</div>
@@ -109,20 +109,20 @@
 			<div id="contact">
 				<h2>Tell us something</h2>
 				<form method="post" action="">
-					<input id="name" name="name" type="text" class="text" onblur="if (this.value == '') {this.value = 'Enter your name';}" onfocus="if (this.value == 'Enter your name') {this.value = '';}" value="Enter your name"/>
-					<input id="email" name="email" type="text" class="text" onblur="if (this.value == '') {this.value = 'Enter your email';}" onfocus="if (this.value == 'Enter your email') {this.value = '';}" value="Enter your email"/>
+					<input id="name" name="name" type="text" class="text" onblur="if (this.value == '') {this.value = 'Your name';}" onfocus="if (this.value == 'Your name') {this.value = '';}" value="Your name"/>
+					<input id="email" name="email" type="text" class="text" onblur="if (this.value == '') {this.value = 'Your email';}" onfocus="if (this.value == 'Your email') {this.value = '';}" value="Your email"/>
 					<textarea id="message" name="message" type="text" class="textarea" rows="10" cols="50" tabindex="1" onblur="if (this.value == '') {this.value = 'Tell us what is on your mind...';}" onfocus="if (this.value == 'Tell us what is on your mind...') {this.value = '';}" value="Tell us what is on your mind..."></textarea>
-<!--					<p class="instruct" id="instruct2"><small>We won't share this with strangers.</small></p> -->
-<!--					<p class="instruct" id="instruct1"><small>* This field is required.</small></p> -->
-					<input id="saveForm" class="btn" type="submit" value="Send" />
+					<input id="saveForm" class="btn" type="submit" value="Send" onclick="this.disabled=true"/>
 				</form>
 			</div>
 			<div id="address">
 				<h2>Our contact info:</h2>
 				<div id="details">
 					<ul>
-						<li class="phone">+55 37 3421 1666</li>
-						<li class="phone">+55 19 3119-6322</li>
+						<li class="phone">
+							<p>+55 37 3421 1666</p>
+							<p>+55 19 3119-6322</p>
+						</li>
 						<li class="skype"><a href="callto://coderelax/">coderelax</a></li>
 						<li class="email">
 							<script type="text/javascript"> 

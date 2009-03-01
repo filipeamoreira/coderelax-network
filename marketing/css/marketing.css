@@ -132,6 +132,14 @@ ul#main-menu li a:hover,ul#main-menu li a.current{
 	font-style:italic;
 	font-size:1.3em;
 }
+#sub-header p {
+	padding:3em 0 0;
+}
+#sub-header a.button{
+	font-size:2em;
+	font-weight:bold;
+}
+
 /* Content */
 #content .box{
 	background:#FFFFFF none repeat scroll 0 0;
@@ -142,13 +150,6 @@ ul#main-menu li a:hover,ul#main-menu li a.current{
 	height:100%;
 	overflow:hidden;
 	padding:1px 1px 0 1px;
-}
-#sub-header p {
-	padding:3em 0 0;
-}
-#sub-header a.button{
-	font-size:2em;
-	font-weight:bold;
 }
 a.button{
 	width: 15em;
@@ -167,11 +168,12 @@ a.button{
 	background-image: -webkit-gradient(linear, left top, left bottom, from(#e9ede8), to(#ce401c),color-stop(0.4, #8c1b0b));
 	text-decoration:none;
 }
-a.button:hover{
+/*a.button:hover{
 	text-decoration:none;
 	background-color: #85DB18;
 	color:#000000;
 }
+*/
 /* services */
 #services{
 	padding:0.5em;
@@ -257,6 +259,14 @@ a.button:hover{
 	font-size:1.5em;
 	line-height:0.9;
 	padding-bottom:1em;
+}
+input,textarea{
+	border: 2px solid #888;
+	background-color: #F8F8F8;
+}
+input:focus,textarea:focus{
+	border-color: #000;
+	background-color: #FFFE9D;
 }
 #news #newsletter input{
 	padding:3px;
@@ -432,26 +442,36 @@ a.button:hover{
 }
 #social #address #details ul li{
 	margin:1em 0 1em 0; 
-	padding-left:4em;
+	padding-left:3em;
 	line-height:5;
 	text-align:left;
 	font-size:1.4em;
 	color:#2F2906;
 	float:left;
 	width:27%;
+	height:5em;
 }
 #social #address #details ul li.email{
-	background: transparent url(/img/mail.png) no-repeat;
+	background: transparent url(/img/mail.png) no-repeat 0 40%;
+	padding-left:4em;
 }
 #social #address #details ul li.phone{
 	background: transparent url(/img/phone.png) no-repeat;
+	line-height:2;
+}
+#social #address #details ul li.phone p{
+	padding-left:0.5em;
 }
 #social #address #details ul li.mail{
 	background: transparent url(/img/letter_box.png) no-repeat;
-	float:right;
+	padding-right:1.5em;
+}
+#social #address #details ul li.mail p{
+	padding-left:1em;
 }
 #social #address #details ul li.skype{
-	background: transparent url(/img/skype.png) no-repeat;
+	padding-left:4em;
+	background: transparent url(/img/skype.png) no-repeat 0 40%;
 }
 
 #social #address #details ul li a{
